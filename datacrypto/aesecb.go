@@ -1,4 +1,4 @@
-package securedatacrypto
+package datacrypto
 
 import (
 	"crypto/aes"
