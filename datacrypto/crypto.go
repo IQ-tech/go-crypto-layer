@@ -1,6 +1,6 @@
 package datacrypto
 
-// Crypto interface to implement new cryptography methods
+// Crypto hols methods to encrypt and decrypt data
 type Crypto interface {
 	Encrypt(text string) (string, error)
 	Decrypt(encryptedText string) (string, error)
